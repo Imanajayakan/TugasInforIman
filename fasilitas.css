@@ -1,8 +1,17 @@
 .content{
     display: flex;
-    float: left;
+    margin-right: 10%;
+    margin-left: 20%;
+    margin-top: 25px;
 }
 .left-content, .right-content{
-    flex:50%;
-    justify-content: space-around;
+    flex:100%;
+    text-align: start;
+}
+.left-content p, .right-content p{
+    text-decoration: underline;
+    margin-left: -15px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
